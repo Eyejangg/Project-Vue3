@@ -1,0 +1,112 @@
+.price-section {
+    margin-top: 20px;
+  }
+  
+  .homepage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .news-main {
+    display: flex;
+    width: 65%;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .main-news-image {
+    width: 100%;
+    height: auto;
+    max-height: 540px;
+    object-fit: cover;
+  }
+  
+  .main-news-content {
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    max-width: 70%;
+    padding: 10px;
+  }
+  
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 30%;
+  }
+  
+  .news-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .news-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .news-item h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  
+  .news-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .news-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .featured-news {
+    margin-top: 20px;
+    width: 100%;
+    /* ปรับความกว้างเป็น 100% */
+  }
+  
+  .featured-news-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* ปรับให้มี 4 คอลัมน์ */
+    grid-gap: 20px;
+  }
+  
+  .featured-news-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .featured-news-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .featured-news-item h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  
+  .featured-news-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .featured-news-item a:hover {
+    text-decoration: underline;
+  }

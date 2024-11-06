@@ -1,0 +1,54 @@
+.navbar {
+    background-color: #c2b4ae; /* สีพื้นหลัง */
+    padding: 15px 20px; /* ปรับ Padding */
+    color: white;
+    display: flex; /* ใช้ Flexbox */
+    justify-content: space-between; /* จัดแบรนด์และเมนูให้อยู่ที่สองด้าน */
+    align-items: center; /* จัดให้อยู่กลางแนวตั้ง */
+    position: fixed; /* ทำให้ Navbar ติดอยู่ที่ด้านบน */
+    top: 0; /* ระบุให้ Navbar อยู่ที่ด้านบนสุด */
+    left: 0; /* ระบุให้ Navbar เริ่มต้นที่ซ้ายสุด */
+    width: 100%; /* ให้ Navbar มีความกว้างเต็มที่ */
+    z-index: 1000; /* ให้ Navbar อยู่เหนือเนื้อหาอื่นๆ */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ Navbar */
+}
+
+.navbar-brand h1 {
+    margin: 0;
+    font-size: 24px; /* ปรับขนาดฟอนต์ */
+    font-weight: bold; /* ทำให้ฟอนต์หนาขึ้น */
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* จัดให้เมนูอยู่กลาง */
+    gap: 30px; /* เพิ่มระยะห่างระหว่างเมนู */
+    margin: 0; /* ลบ margin */
+    flex-grow: 1; /* ให้เมนูเติบโตเต็มที่ */
+}
+
+.navbar-menu li {
+    display: inline;
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; /* ปรับขนาดฟอนต์ */
+    padding: 10px 15px; /* ปรับ Padding ให้มากขึ้น */
+    border-radius: 5px; /* ให้มุมมน */
+    transition: background-color 0.3s ease; /* เพิ่ม Transition */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+}
+
+
+.navbar-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* เพิ่มสีพื้นหลังเมื่อ Hover */
+    border-radius: 5px; /* ให้มุมมนเมื่อ Hover */
+}
+
+body {
+    padding-top: 70px; /* เพิ่ม Padding ให้กับ Body เพื่อให้เนื้อหาไม่ซ้อนกับ Navbar */
+}
